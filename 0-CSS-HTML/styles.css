@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Space Grotesk";
+    background-color: var(--background);
+    color: var(--text);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.6;
+
+}
+
+header{
+    height: 9vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 1px solid var(--borde);
+    padding: 5% 3%;
+}
+
+main{
+    padding: 5% 3%;
+    
+
+}
+
+h2{
+    width: max-content;
+}
+
+nav{
+    width: max-content;
+}
+
+form{
+    width: max-content;
+}
+
+input{
+    background-color: var(--card);
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.model-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    width: 20vh;
+    background-color: var(--card);
+    margin: 1% 5%;
+    border-radius: 5%;
+    border: 1px solid var(--borde);
+}
+
+footer{
+    height: 9vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-top: 1px solid var(--borde);
+    padding: 5% 3%;
+    justify-content: space-evenly;
+}
