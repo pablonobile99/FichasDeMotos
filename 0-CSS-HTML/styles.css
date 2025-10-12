@@ -19,8 +19,9 @@ header{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
-    border-bottom: 1px solid var(--borde);
+    justify-content: space-between;
+    /* border-bottom: 1px solid var(--borde); */
+    box-shadow: 0 1px 3px 0 var(--borde);
     padding: 5% 3%;
 }
 
@@ -40,13 +41,22 @@ nav{
 
 form{
     width: max-content;
+
+    input{
+        background-color: var(--card);
+        border-radius: 10px;
+        padding: 2px;
+    }
+    button{
+        background-color: var(--card);
+        border-radius: 10px;
+        padding: 2%px;
+    }
 }
 
-input{
-    background-color: var(--card);
-    border-radius: 10px;
-    padding: 2px;
-}
+
+
+
 
 .model-container{
     display: flex;
@@ -70,7 +80,8 @@ footer{
     display: flex;
     flex-direction: row;
     align-items: center;
-    border-top: 1px solid var(--borde);
     padding: 5% 3%;
-    justify-content: space-evenly;
+    justify-content: space-between;
+/*     border-top: 1px solid var(--borde); */    
+    box-shadow: 0 -1px 3px 0 var(--borde);
 }
